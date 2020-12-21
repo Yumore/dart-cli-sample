@@ -6,11 +6,15 @@
   background-color: SlateBlue;
   color: Yellow;
 }
+
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: WhiteSmoke;
-  margin: 15px;
   color: black;
+  background-color: #f8f8f8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
 }
 
 #to-do-input {
@@ -32,4 +36,31 @@ body {
 #to-do-list li {
   padding: 5px 0px 5px 5px;
   border-bottom: 1px dotted Silver;
+}
+
+#to-do-list li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#delete-all {
+  margin-top: 8px;
+  background-color: #f8f8f8;
+  border: 1px dotted #ccc;
+  border-radius: 1em;
+  float: right;
+}
+
+#delete-all:hover {
+  background-color: #ddd;
+}
+
+.letter {
+  width: 48px;
+  height: 48px;
+  font-size: 32px;
+  background-color: Lavender;
+  color: purple;
+  border: 1px solid black;
+  margin: 2px 2px 2px 2px;
 }
